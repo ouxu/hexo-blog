@@ -1,0 +1,3 @@
+[submodule "themes/fing"]
+	path = themes/fing
+	url = https://github.com/ouxu/Hexo-Theme-Fing.git
