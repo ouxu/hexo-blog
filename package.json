@@ -7,7 +7,8 @@
   },
   "scripts": {
     "start": "hexo s",
-    "deploy": "hexo d -g"
+    "deploy": "hexo d -g",
+    "now-build": "hexo d -g"
   },
   "dependencies": {
     "hexo": "^3.8.0",
