@@ -8,8 +8,10 @@
   "scripts": {
     "start": "hexo s",
     "deploy": "hexo d -g",
+    "now-deploy": "now --target production",
     "now-build": "hexo d -g"
   },
+  "pre-push": ["now-deploy"],
   "dependencies": {
     "hexo": "^3.8.0",
     "hexo-baidu-url-submit": "0.0.6",
@@ -22,5 +24,8 @@
     "hexo-renderer-marked": "^1.0.1",
     "hexo-renderer-stylus": "^0.3.3",
     "hexo-server": "^0.3.3"
+  },
+  "devDependencies": {
+    "pre-push": "^0.1.1"
   }
 }
